@@ -47,7 +47,11 @@ nav > ul > li:hover{
     transition: 0.3s border 1s;
     border: 0px solid black;
 }
-
+nav > ul > li.login-highlight {
+    transform: translate(1px, 1px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
+    border: 1px solid black;
+}
 nav > ul > li {
     border: 1px solid black;
 }
