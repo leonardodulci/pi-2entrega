@@ -50,7 +50,7 @@ nav > ul > li:hover{
 nav > ul > li.login-highlight {
     transform: translate(1px, 1px);
     box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.603);
-    border: px solid black;
+    border: 2px solid black;
 }
 nav > ul > li {
     border: 1px solid black;
