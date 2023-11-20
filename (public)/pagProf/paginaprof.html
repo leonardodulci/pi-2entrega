@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cadastrando</title>
-    <link rel="stylesheet" href="paginaPessoa.css">
+    <title>Cadastrar Professor</title>
+    <link rel="stylesheet" href="paginaprofessor.css">
+    <link rel="stylesheet" href="../firebase.js">
+
 </head>
 <body>
     <header>
-        <h1>Cadastrar Funcionários</h1>
+        <h1>Cadastro de Professor</h1>
         <a href="../home/home.html"> Voltar para página principal</a>
     </header>
     <main>
@@ -32,7 +34,8 @@
                 <label for="icep">CEP:</label><br>
                 <input type="number" name="CEP" id="icep" placeholder="00.000-00">
                 <br>
-            
+                <label for="imatri">Matricula:</label><br>
+                <input type="number" name="matricula" id="imatri" placeholder="xxxxx"><br>
                 <input type="button" value="Cadastrar" class="button">
             </form>
         </div>
